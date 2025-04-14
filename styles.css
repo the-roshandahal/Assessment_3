@@ -236,10 +236,23 @@
 
 }
 
+.blog-heading{
+    margin: 10px 0px;
+    font-size: 50px;
+}
 
 
-
-
+.blog-details-cont{
+    margin: 20px 200px;
+}
+.blog_image{
+    width: 100%;
+    height: 600px;
+}
+.blog_desc p {
+    line-height: 30px;
+    margin-top: 10px;
+}
 
 
 
