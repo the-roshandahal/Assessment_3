@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -24,9 +24,9 @@
 <body>
     <header class="header">
 		<div class="container">
-			<li class="logo-item"><img src="images/logo.png" class="logo"></li>
+			<li class="logo-item"><img src="images/logo.png" class="logo" alt="logo for the main navbar"></li>
 			<input class="menu-btn" type="checkbox" id="menu-btn">
-			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<label class="menu-icon" for="menu-btn">menu<span class="navicon"></span></label>
 			<ul class="menu">
                 <a href="index.html"><li class="nav-item right">Home</li></a>
                 <a href="about.html"><li class="nav-item right">About Us</li></a>
@@ -48,13 +48,13 @@
           
               <label for="lname">Last Name</label>
               <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-              <label for="lname">Email </label>
+              <label for="email">Email </label>
               <input type="text" id="email" name="lastname" placeholder="ab..@gmail.com">
           
-              <label for="country">Message</label>
-              <textarea type="message" id="email" name="lastname" placeholder="ab..@gmail.com"  rows="8" cols="80"></textarea>
+              <label for="message">Message</label>
+              <textarea type="message" id="message" name="lastname" placeholder="ab..@gmail.com"  rows="8" cols="80"></textarea>
             
-              <input type="submit" value="Submit" style="background-color: #5D8086;">
+              <input type="submit" value="Submit" style="background-color: #32474b;">
             </form>
             
           </div>
@@ -77,20 +77,21 @@
         <div class="newsletter">
             <h2>SIGN UP FOR OUR OFFICIAL NEWS LETTER</h2>
             <form class="newsletter-form">
-                <input placeholder="youremail@gmail.com">
+                <input type="email" aria-label="Search" placeholder="youremail@gmail.com">
                 <button>SIGN UP</button>
             </form>
         </div>
     </section>
 </section>
+
 <footer>
     <div class="footer">
         <div class="logo footer-sec">
-            <img src="images/logo.png" class="logo logo-item" >
+            <img src="images/logo.png" class="logo logo-item" alt="image for the footer" >
 
         </div>
         <div class="list quick-links footer-sec">
-            <p>Quick Links</p>
+            <h2>Quick Links</h2>
             <ul>
                 <a href="index.html"><li class="nav-item right">Home</li></a>
                 <a href="about.html"><li class="nav-item right">About Us</li></a>
@@ -100,7 +101,7 @@
             </ul>
         </div>
         <div class="list socials footer-sec">
-            <p>Socials</p>
+            <h2>Socials</h2>
             <ul>
                 <a href="www.facebook.com"><li class="nav-item right">Facebook</li></a>
                 <a href="www.instagram.con"><li class="nav-item right">Instagram</li></a>
@@ -111,7 +112,6 @@
         </div>
     </div>
 </footer>
-
 
 </body>
 </html>
