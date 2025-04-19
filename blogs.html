@@ -20,17 +20,23 @@
     </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="nav">
-                <li class="nav-item logo-item"><img src="images/logo.png" class="logo"></li>
-                <li class="nav-item right">Home</li>
-                <li class="nav-item right">About Us</li>
-                <li class="nav-item right">Blogs</li>
-                <li class="nav-item right">Contact</li>
-            </ul>
-        </nav>
-    </header>
+    <header class="header">
+		<div class="container">
+			<li class="logo-item"><img src="images/logo.png" class="logo"></li>
+			<input class="menu-btn" type="checkbox" id="menu-btn">
+			<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<ul class="menu">
+                <a href="index.html"><li class="nav-item right">Home</li></a>
+                <a href="about.html"><li class="nav-item right">About Us</li></a>
+                <a href="blogs.html"><li class="nav-item right">Blogs</li></a>
+                <a href="contact.html"><li class="nav-item right">Contact Us</li></a>
+                <a href="gallery.html"><li class="nav-item right">Gallery</li></a>
+			
+			</ul>
+		</div>
+		
+	</header>
+    <section class="main">
     <section class="page-hero">
         <h1>Blogs</h1>
     </section>
@@ -120,7 +126,7 @@
             </div>
         </div>
     </section>
-
+</section>
     <footer>
         <div class="footer">
             <div class="logo footer-sec">
